@@ -1,66 +1,96 @@
-body{
-    background-color: rgba(180, 179, 179, 0.397);
+@import url('https://fonts.googleapis.com/css?family=Numans');
 
-
+html,body{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+font-size: 14px;
 }
-.form{
-    width: 400px;
-    margin: auto;
-    padding-top: 40px;
+
+.container{
+height: 100%;
+align-content: center;
 }
 
 .card{
-    box-shadow: 1px 1px 5px white;
-    background-color: white;
-    padding: 30px;
-    border-radius: 5px;
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
 }
 
-.card-top{
-    text-align: center;
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
 }
 
-.card-group{
-    margin-bottom: 10px;
+.social_icon span:hover{
+color: white;
+cursor: pointer;
 }
 
-.labell{
-    width: 100%;
-    color: rgb(92, 92, 92);
-    display: block;
-    text-align: left;
+.card-header h4{
+margin-top: 20px;
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: rgba(18, 18, 204, 0.507);
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
 
 }
 
-.input{
-    border-radius: 4px;
-    outline: 0;
-    width: 100%;
-    height: 25x;
-    padding: 5px;
+.remember{
+color: white;
 }
 
 .imglogin{
     border-radius: 100px;
     width:100px;
     box-shadow: 0px 0px 5px white;
-}
-.btn{
-    background-image: linear-gradient(to right,rgba(31, 131, 245, 0.884),rgba(10, 51, 104, 0.753));
-    width: 100%;
-    border-radius: 30px;
-    padding: 0px;
-    height: 50px;
-    color: white;
-    border: 0px;
-    outline: 0;
+    margin-left: 110px;
 }
 
-.btn button:hover{
-    background-image: linear-gradient(to right,rgba(10, 51, 104, 0.753),rgba(31, 131, 245, 0.884));
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
 }
 
-.title{
-    color:rgba(3, 83, 175, 0.555)  ;
+.login_btn{
+color: black;
+background-color: rgba(18, 18, 204, 0.507);
+width: 100px;
 }
 
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}

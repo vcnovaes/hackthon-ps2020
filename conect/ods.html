@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODS</title>
+    <link rel="stylesheet" href="css/style2.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div>
+                <img class="icon" src="data:image/png;base64,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"/>
+            </div>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Até 2030, erradicar a pobreza extrema para todas as pessoas em todos os lugares, 
+                    atualmente medida como pessoas vivendo com menos de US$1,25 por dia.</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">  
+            <img class="icon" src="https://oestepr2030.org.br/wp-content/uploads/2018/07/2-Fome-Zero-e-Agricultura-Sustent%C3%A1vel.-Vetorizada.-JPG.-Com-t%C3%ADtulo.-Colorida.jpg" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Até 2030, acabar com a fome e garantir o acesso de todas as pessoas,
+                     em particular os pobres e pessoas em situações vulneráveis, 
+                    incluindo crianças, a alimentos seguros, nutritivos e suficientes durante todo o ano.</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="https://nacoesunidas.org/wp-content/uploads/2016/04/E_SDG_Icons_NoText-03.png" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Assegurar uma vida saudável e promover o bem-estar para todos, em todas as idades</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="https://miro.medium.com/max/932/0*mdIUM3V2hFWbX0O1" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Assegurar a educação inclusiva e equitativa e de qualidade,
+                     e promover oportunidades de aprendizagem ao longo da vida para todos</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="https://nacoesunidas.org/wp-content/uploads/2016/04/E_SDG_Icons_NoText-05.png" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Eliminar todas as formas de violência contra todas as mulheres e meninas nas esferas públicas e privadas,
+                     incluindo o tráfico e exploração sexual e de outros tipos.</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="data:image/png;base64,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" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Até 2030, alcançar o acesso a saneamento e higiene adequados e equitativos para todos, 
+                    e acabar com a defecação a céu aberto
+                    com especial atenção para as necessidades das mulheres e meninas 
+                    e daqueles em situação de vulnerabilidade.</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="data:image/png;base64,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" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Garantir acesso à energia barata, confiável, sustentável e renovável para todos</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="https://nacoesunidas.org/wp-content/uploads/2016/04/E_SDG_Icons_NoText-08.png" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Sustentar o crescimento econômico per capita de acordo com as circunstâncias nacionais e, em particular, 
+                    um crescimento anual de pelo menos 7% do produto interno bruto [PIB] nos países menos desenvolvidos.</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="https://nacoesunidas.org/wp-content/uploads/2016/04/E_SDG_Icons_NoText-09.png" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Desenvolver infraestrutura de qualidade, confiável, sustentável e resiliente, 
+                    incluindo infraestrutura regional e transfronteiriça, 
+                    para apoiar o desenvolvimento econômico e o bem-estar humano, 
+                    com foco no acesso equitativo e a preços acessíveis para todos.</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="https://nacoesunidas.org/wp-content/uploads/2016/04/E_SDG_Icons_NoText-10.png" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Até 2030, progressivamente alcançar e sustentar o crescimento da renda dos 40% da população
+                     mais pobre a uma taxa maior que a média nacional.</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="https://nacoesunidas.org/wp-content/uploads/2016/04/E_SDG_Icons_NoText-11.png" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Até 2030, garantir o acesso de todos à habitação segura, adequada e a preço acessível,
+                     e aos serviços básicos e urbanizar as favelas.</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="https://nacoesunidas.org/wp-content/uploads/2016/04/E_SDG_Icons_NoText-12.png" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Implementar o Plano Decenal de Programas sobre Produção e Consumo Sustentáveis, 
+                    com todos os países tomando medidas, e os países desenvolvidos assumindo a liderança,
+                     tendo em conta o desenvolvimento e as capacidades dos países em desenvolvimento.</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="https://nacoesunidas.org/wp-content/uploads/2016/04/E_SDG_Icons_NoText-13.png" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Reforçar a resiliência e a capacidade de adaptação a riscos relacionados ao clima e às catástrofes naturais em todos os países.</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="https://nacoesunidas.org/wp-content/uploads/2016/04/E_SDG_Icons_NoText-14.png" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Conservação e uso sustentável dos oceanos,
+                     dos mares e dos recursos marinhos para o desenvolvimento sustentável</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="https://nacoesunidas.org/wp-content/uploads/2016/04/E_SDG_Icons_NoText-15.png" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres, 
+                    gerir de forma sustentável as florestas, 
+                    combater a desertificação, deter e reverter a degradação da terra e deter a perda de biodiversidade</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="https://nacoesunidas.org/wp-content/uploads/2016/04/E_SDG_Icons_NoText-16.png" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Promover sociedades pacíficas e inclusivas para o desenvolvimento sustentável, 
+                    proporcionar o acesso à justiça para todos e construir instituições eficazes,
+                     responsáveis e inclusivas em todos os níveis</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="icon" src="https://nacoesunidas.org/wp-content/uploads/2016/04/E_SDG_Icons_NoText-17.png" height: 161px weight: 161px/>
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Fortalecer a mobilização de recursos internos, 
+                    inclusive por meio do apoio internacional aos países em desenvolvimento, 
+                    para melhorar a capacidade nacional para arrecadação de impostos e outras receitas.</p>
+                <button>Projetos</button>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
