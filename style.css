@@ -1,5 +1,5 @@
 .nav-item{
-    padding-left: 35px;
+    padding-left: 30px;
 }
 /* 
 }*/
@@ -15,8 +15,37 @@ body{
 
 background-color: rgb(211, 211, 211);
 }
-.container{
+/*.container{
 background-color: white;
-padding: 10px 10px 10px 10px;
+padding: 4px 10px 10px 10px;
+margin: 10px 10px 10px;
+align-content: justify;
+text-align: justify;
+}
+#content1{
 
+}
+*/
+.main-links{
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.row-content{
+    margin-bottom: 100px;
+}
+#searcher{
+    padding-right: 10px;
+    margin-right: 50px;
+}
+#box1{
+    border: 2px rgb(133, 185, 253);
+    border-style: outset;
+    align-content: left;
+    text-align: left;
+    border-radius: 10px;
+}
+footer{
+    color: rgb(22, 50, 51);
+    padding-top: 30px;
 }
