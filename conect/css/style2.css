@@ -2,6 +2,7 @@ body{
     margin:0;
     padding: 0;
     font-family: sans-serif;
+    background-color: black;
 }
 .container{
     position: relative;
@@ -12,12 +13,12 @@ body{
 }
 .container .box{
     position: relative;
-    width: calc(400px - 30px);
-    height: calc(300px - 30px);
-    background: rgba(0, 0, 0, 0.74);
+    width: 180px;
+    height: 180px;
+    background:whitesmoke;
     float: left;
     margin-left: 60px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 10px;
@@ -33,16 +34,16 @@ body{
     z-index: 1;
 }
 .container .box:hover .icon{
-top: 20px;
+top: 0px;
 right: calc(50% - 40px);
-width: 80px;
-height: 80px;
+width: 40px;
+height: 40px;
 border-radius:50%;
 }
 
 .container .box .content{
     position:absolute;
-    top: 60px;
+    top: 0px;
     height:1 calc(100% - 100px);
     text-align: center;
     padding: 20px;
@@ -51,26 +52,39 @@ border-radius:50%;
 .container .box h3{
     margin: 0;
     padding: 0;
-    color: #fff;
-    font-size: 24px;
+    color:black;
+    font-size: 16px;
 
 }
 .container .box p{
    margin: 0;
    padding: 0;
-   color: #fff; 
+   color: black;
+   font-size: 14px; 
 }
-
+.but{
+    background-image: linear-gradient(to right,#18B4EE,#27b5e9);
+    width: 100%;
+    border-radius: 30px;
+    padding: 0px;
+    height: 40px;
+    color:black;
+    border: 0px;
+    outline: 0;
+}
+.but:hover{
+    background-image: linear-gradient(to right,#18B4EE,#27b5e9);
+}
 .container .box button{
-    background-image: linear-gradient(to right,rgba(56, 146, 250, 0.884),rgba(18, 87, 177, 0.897));
+    background-image: linear-gradient(to right,#18B4EE,#27b5e9);
     width: 100%;
     border-radius: 30px;
     padding: 0px;
     height: 20px;
-    color: white;
+    color:black;
     border: 0px;
     outline: 0;
 }
 .container .box button:hover{
-    background-image: linear-gradient(to right,rgba(10, 51, 104, 0.753),rgba(31, 131, 245, 0.884));
+    background-image: linear-gradient(to right,#18B4EE,#27b5e9);
 }
