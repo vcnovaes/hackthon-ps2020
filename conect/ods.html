@@ -3,14 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ODS</title>
+    <title>ODS1</title>
     <link rel="stylesheet" href="css/style2.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="navbar-brand" src="imagem/logo.png" width="100" height="100">
+        <a class="navbar-brand" href="#" style="color:#18B4EE;">Conecte.me</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Perfil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Feed</a>
+              </li>
+              <li class="nav-item active">
+              <a class="nav-link" href="#">Projetos <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Digite aqui o nome do projeto" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquise</button>
+          </form>
+        </div>
+      </nav>
+
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container" style="height:10%;">
+          <h1 class="display-5">Objetivos de desenvolvimento sustentáveis</h1>
+          <p class="lead">Veja quais são os Objetivos de Desenvolvimento abaixo e clique no botão para ver os projetos inscritos na conecte-me.</p>
+          <button>Projetos</button>
+        </div>
+      </div>
+
+
+
+<div class="container">
         <div class="box">
             <div>
                 <img class="icon" src="data:image/png;base64,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"/>
@@ -19,7 +57,6 @@
                 <h3>Descrição</h3>
                 <p>Até 2030, erradicar a pobreza extrema para todas as pessoas em todos os lugares, 
                     atualmente medida como pessoas vivendo com menos de US$1,25 por dia.</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">  
@@ -29,15 +66,13 @@
                 <p>Até 2030, acabar com a fome e garantir o acesso de todas as pessoas,
                      em particular os pobres e pessoas em situações vulneráveis, 
                     incluindo crianças, a alimentos seguros, nutritivos e suficientes durante todo o ano.</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">
             <img class="icon" src="https://nacoesunidas.org/wp-content/uploads/2016/04/E_SDG_Icons_NoText-03.png" height: 161px weight: 161px/>
             <div class="content">
                 <h3>Descrição</h3>
-                <p>Assegurar uma vida saudável e promover o bem-estar para todos, em todas as idades</p>
-                <button>Projetos</button>
+                <p>Assegurar uma vida saudável e promover o bem-estar para todos, Assegurar a educação em todas as idades oi oi oi oi oi oi</p>
             </div>
         </div>
         <div class="box">
@@ -46,7 +81,6 @@
                 <h3>Descrição</h3>
                 <p>Assegurar a educação inclusiva e equitativa e de qualidade,
                      e promover oportunidades de aprendizagem ao longo da vida para todos</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">
@@ -55,7 +89,6 @@
                 <h3>Descrição</h3>
                 <p>Eliminar todas as formas de violência contra todas as mulheres e meninas nas esferas públicas e privadas,
                      incluindo o tráfico e exploração sexual e de outros tipos.</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">
@@ -64,9 +97,7 @@
                 <h3>Descrição</h3>
                 <p>Até 2030, alcançar o acesso a saneamento e higiene adequados e equitativos para todos, 
                     e acabar com a defecação a céu aberto
-                    com especial atenção para as necessidades das mulheres e meninas 
-                    e daqueles em situação de vulnerabilidade.</p>
-                <button>Projetos</button>
+                    com especial atenção para aqueles em situação de vulnerabilidade.</p>
             </div>
         </div>
         <div class="box">
@@ -74,7 +105,6 @@
             <div class="content">
                 <h3>Descrição</h3>
                 <p>Garantir acesso à energia barata, confiável, sustentável e renovável para todos</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">
@@ -83,7 +113,6 @@
                 <h3>Descrição</h3>
                 <p>Sustentar o crescimento econômico per capita de acordo com as circunstâncias nacionais e, em particular, 
                     um crescimento anual de pelo menos 7% do produto interno bruto [PIB] nos países menos desenvolvidos.</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">
@@ -91,10 +120,8 @@
             <div class="content">
                 <h3>Descrição</h3>
                 <p>Desenvolver infraestrutura de qualidade, confiável, sustentável e resiliente, 
-                    incluindo infraestrutura regional e transfronteiriça, 
                     para apoiar o desenvolvimento econômico e o bem-estar humano, 
                     com foco no acesso equitativo e a preços acessíveis para todos.</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">
@@ -103,7 +130,6 @@
                 <h3>Descrição</h3>
                 <p>Até 2030, progressivamente alcançar e sustentar o crescimento da renda dos 40% da população
                      mais pobre a uma taxa maior que a média nacional.</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">
@@ -112,7 +138,6 @@
                 <h3>Descrição</h3>
                 <p>Até 2030, garantir o acesso de todos à habitação segura, adequada e a preço acessível,
                      e aos serviços básicos e urbanizar as favelas.</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">
@@ -120,9 +145,8 @@
             <div class="content">
                 <h3>Descrição</h3>
                 <p>Implementar o Plano Decenal de Programas sobre Produção e Consumo Sustentáveis, 
-                    com todos os países tomando medidas, e os países desenvolvidos assumindo a liderança,
+                    com todos os países tomando medidas
                      tendo em conta o desenvolvimento e as capacidades dos países em desenvolvimento.</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">
@@ -130,7 +154,6 @@
             <div class="content">
                 <h3>Descrição</h3>
                 <p>Reforçar a resiliência e a capacidade de adaptação a riscos relacionados ao clima e às catástrofes naturais em todos os países.</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">
@@ -139,7 +162,6 @@
                 <h3>Descrição</h3>
                 <p>Conservação e uso sustentável dos oceanos,
                      dos mares e dos recursos marinhos para o desenvolvimento sustentável</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">
@@ -149,7 +171,6 @@
                 <p>Proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres, 
                     gerir de forma sustentável as florestas, 
                     combater a desertificação, deter e reverter a degradação da terra e deter a perda de biodiversidade</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">
@@ -159,7 +180,6 @@
                 <p>Promover sociedades pacíficas e inclusivas para o desenvolvimento sustentável, 
                     proporcionar o acesso à justiça para todos e construir instituições eficazes,
                      responsáveis e inclusivas em todos os níveis</p>
-                <button>Projetos</button>
             </div>
         </div>
         <div class="box">
@@ -169,11 +189,17 @@
                 <p>Fortalecer a mobilização de recursos internos, 
                     inclusive por meio do apoio internacional aos países em desenvolvimento, 
                     para melhorar a capacidade nacional para arrecadação de impostos e outras receitas.</p>
-                <button>Projetos</button>
             </div>
         </div>
-
+        <div class="box">
+            <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRkPeAyP2tqSBDgphiU-rjpFMG3uI54H-ghA&usqp=CAU" height: 161px weight: 161px />
+            <div class="content">
+                <h3>Descrição</h3>
+                <p>Não sabe o que são as ODS? clique no botão para saber mais!</p>
+                <button>Saber mais</button>
+            </div>
+        </div>
     </div>
-    
+
 </body>
 </html>
